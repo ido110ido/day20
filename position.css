@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+}
+.dark{
+    background-color: gray;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+}
+#text{
+    width: 226px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    border-radius:4px 0px 0px 4px;
+    /* margin-right: 0px; */
+}
+.button{
+    display: flex;
+    width: 76px;
+    height: 42px;
+    border: 1px solid #28A745;
+    border-radius:4px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+.empty_list_bottom{
+    border: 1px solid gray;
+    background-color: gray;
+}
+.button:hover{
+    background-color: rgb(0, 170, 0);
+    border: 1px solid rgb(0, 170, 0);
+
+}
+.task_button{
+    width: 50px;
+    height: 60%;
+    padding: 15px;
+    font-size: 16px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.todoBrick{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    width: 300px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid #28A745;
+}
+#list_placeHolder{
+    list-style-type: none; 
+}

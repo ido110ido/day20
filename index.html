@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/position.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page" onloadstart="randerList()">
+        <h1>To-Do List</h1>
+        <form action="">
+            <input type="text" name="task_Input" id="text" placeholder="enter task:">
+            <button class="button" id="submit">+</button>
+        </form>
+        <ul id="list_placeHolder"></ul>
+        <div style="display: inline-flex; gap: 10px;">
+            <button class="button" id="clean">-</button>
+            <button class="button" id="dark">dark mode</button>    
+        </div>
+        <script src="/main.js"></script>
+</body>
+</html>
